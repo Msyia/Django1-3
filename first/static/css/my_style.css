@@ -1,0 +1,33 @@
+/* CSS untuk styling tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling untuk header tabel (th) */
+th {
+    background-color: pink;  /* Warna pink untuk header */
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border: 2px solid #d3a9c0; /* Menambahkan border pada header */
+}
+
+/* Styling untuk sel tabel (td) */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;  /* Border untuk tiap sel tabel */
+    text-align: left;
+}
+
+/* Styling untuk baris genap */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styling untuk baris yang disorot ketika hover */
+tr:hover {
+    background-color: #ddd;
+}
